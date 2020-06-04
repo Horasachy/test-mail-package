@@ -1,0 +1,20 @@
+{
+    "name": "horasachy/test-mail-package",
+    "description": "sending emails based on the development environment",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Horasachy",
+            "email": "misha89891@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Horasachy\\Mail\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
